@@ -1,44 +1,49 @@
 {
-  "name": "n8n-nodes-<...>",
-  "version": "0.1.0",
-  "description": "",
+  "name": "@wawp/n8n-nodes-wawp",
+  "version": "0.0.4",
+  "description": "Wawp nodes for n8n",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "n8n",
+    "wawp"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Whatsapp-Automation-web-platform/n8n-nodes-wawp#readme",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Wawp",
+    "email": "info@wawp.net"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/Whatsapp-Automation-web-platform/n8n-nodes-wawp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Whatsapp-Automation-web-platform/n8n-nodes-wawp/issues"
   },
   "engines": {
     "node": ">=20.15"
   },
-  "main": "index.js",
   "scripts": {
     "build": "npx rimraf dist && tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
-    "lintfix": "eslint nodes credentials package.json --fix",
-    "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json"
+    "lintfix": "eslint nodes credentials package.json -c .eslintrc.prepublish.js --fix",
+    "prepublishOnly": "npm run build && npm run lint -- -c .eslintrc.prepublish.js nodes credentials package.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/WawpNumberApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/WawpTrigger/WawpTrigger.node.js",
+      "dist/nodes/Wawp/Wawp.node.js"
     ]
   },
   "devDependencies": {
@@ -47,9 +52,13 @@
     "eslint-plugin-n8n-nodes-base": "^1.16.3",
     "gulp": "^5.0.0",
     "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
